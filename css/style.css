@@ -46,7 +46,28 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: blue; }
+  background-color: grey;
+  width: 100vw;
+  height: 100vh; }
 
-h1 {
-  color: red; }
+header {
+  padding: 20px;
+  text-align: center; }
+  header h1 {
+    color: yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 12px; }
+
+.about {
+  text-align: center;
+  padding: 20px; }
+  .about p {
+    color: green; }
+  .about span.active {
+    color: red; }
+  .about span.css {
+    color: blue; }
+
+footer {
+  text-align: center; }
